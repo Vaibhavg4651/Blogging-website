@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      uri : mongodb+srv://zodi:1234@cluster0.eedczsf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database : Blog
+
+app:
+  jwt:
+    secret: v9y$B&E)H@MbQeThWmZq4t7w!z%C*F-JaNdRfUjXn2r5u8x/A?D(G+KbPeShVkYp
+    expiration: 6000000  
+cors:
+  allowed-origins: http://localhost:5173

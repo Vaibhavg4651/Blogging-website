@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BloggerApplication<Blogger>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.vaibhavg4651.Blogs.Blogger.BloggerApplication",
+            "projectName": "Blogger",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
